@@ -6,6 +6,7 @@ contract StudentInfo {
       string gender;
       uint enrollYr;
     }
+    
     SInfo public sinfo;
     
    function setName(string memory _msg) public {
